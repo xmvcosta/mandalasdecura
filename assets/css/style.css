@@ -101,4 +101,30 @@ footer{
     height:150px;
 }
 
+/*REDESSOCIAIS*/
+.redessociais-container{display: flex;justify-content: center;background-color: #D0E4F5}
+.fa-facebook {color: #3b5998;}
+.fa-instagram {color:#c32aa3;}
+.fa-twitter {color:#1da1f2;}
+.fa-youtube {color:#FF0000;}
+
+/*GALERIA DE IMAGENS*/
+.galeriaimagens{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.galeriaimagens img{
+    width: 300px;
+    margin: 5px;
+    border-radius: 10px;
+    transition: 0.5s transform;
+}
+
+.galeriaimagens img:hover{
+    transform: scale(1.1);
+    transition: 0.5s transform;
+}
+
 
