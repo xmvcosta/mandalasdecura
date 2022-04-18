@@ -3,6 +3,15 @@
 img{max-width:100%;display: block;margin: auto;}
 ul li{list-style: none;padding: 5px;}
 a{color: #fff; text-decoration: none;}
+/*
+cor01 = #0000FF
+cor02 = #0044FF
+cor03 = #0066FF
+cor04 = #3388FF
+cor05 = #3388FF
+cor06 = #77CCFF
+
+*/
 
 /*CLASSES AUXILIARES*/
 /*container centraliza e define tamanho do width em %*/
@@ -10,7 +19,7 @@ a{color: #fff; text-decoration: none;}
     /* height: 100vh; */
     width: 95%;
     max-width: 1200px;
-    background-color: blue;
+    background-color: red;
     margin: 0 auto;
     /*display: flex;*/
     /*justify-content: center;*/
@@ -20,21 +29,22 @@ a{color: #fff; text-decoration: none;}
 .wrapper{display:flex;flex-wrap: wrap;justify-content: center;}
 
 /*CUSTOMIZAÇÃO*/
-body {background: #03318C;font-family: Verdana, Geneva, Tahoma, sans-serif;}
+body, html{height: 100vh;}
+body {background: #0044FF;font-family: Verdana, Geneva, Tahoma, sans-serif;}
 
 header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    background-color: green;
+    background-color: #006494;
     text-transform: uppercase;
 }
 
 .logo{
     height: 100px;
     background-image: url(../img/favicon.jpg);
-    background-color: red;
+    background-color: #3388FF;
     background-repeat: no-repeat;
     background-size: contain;
     color: #fff;
@@ -42,7 +52,7 @@ header{
 }
 
 nav{
-    background-color: rgb(0, 113, 128);
+    background-color: #3388FF;
     color: #fff;
     font-weight: bold;
     flex: 1;
