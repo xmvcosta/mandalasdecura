@@ -4,7 +4,7 @@ img{max-width:100%;display: block;margin: auto;}
 ul li{list-style: none; padding: 5px;}
 a{color: #fff; }
 h1,h2,h3{font-family: Roboto, sans-serif;color: var(--cor-titulo);margin-bottom: 1rem;}
-p{font-family: Verdana, Geneva, Tahoma, sans-serif; color: #fff; margin-top: 0;margin-bottom: 1rem;text-indent: 1rem;}
+p{font-family: Verdana, Geneva, Tahoma, sans-serif; color: #000; margin-top: 0;margin-bottom: 1rem;text-indent: 1rem;}
 
 
     
@@ -44,7 +44,7 @@ html, body{
 
 body{   
     font-size: 16px;
-    background-color: var(--cor-bg-2);
+    background-color: var(--cor-01);
     line-height: 1.6;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
