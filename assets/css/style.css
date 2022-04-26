@@ -15,8 +15,6 @@ p{
     font-size: 100%;
 }
 
-
-    
 /*CUSTOMIZAÇÃO*/
 /* cores padrao */
 :root {
@@ -130,8 +128,8 @@ footer{
 /*CLASSES AUXILIARES*/
 /*container centraliza e define tamanho do width em %*/
 .container{
-    width: 95%;
-    max-width: 1200px;
+    width: 100%;
+    max-width: 960px;                                             
     margin: 0 auto;
     overflow: hidden;
 }
