@@ -2,37 +2,38 @@
 *, *::after, *::before{margin:0;padding:0;box-sizing:border-box;border:none;outline:none;text-decoration: none;}
 img{max-width:100%;display: block;margin: auto;}
 ul li{list-style: none; padding: 5px;}
-
+html, body{
+    height: 100vh;
+    font-size: 100%;
+}
 
 /*CUSTOMIZAÇÃO*/
 /* cores padrao */
 :root {
     /*TITULOS*/
     --cor-titulo: #F0A330;
+    --cor-bg-1: #C60F7B;
+    --cor-bg-2: #9b59b6;
 
-    /*PARAGRAFOS*/
+    
     --cor-01: #357E8F;
     --cor-02: #CEA66D;
     --cor-03: #CE2D4F;
     --cor-04: #24264B;
     --cor-05: #7a7a7a;
     
-    --cor-bg-1: #C60F7B;
-    --cor-bg-2: #9b59b6;
+    
     
 }
 
-html, body{
-    height: 100vh;
-    font-size: 100%;
-}
+
 
 body{   
     font-size: 18px;
     line-height: 1.8;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #fff;
-    color: #444;
+    color: #333;
     
 }
 
