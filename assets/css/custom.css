@@ -97,7 +97,7 @@ nav .active a,nav a:hover{color:#FFFFFF;text-shadow: 1px 1px #000;}
 }
 
 #principalint{
-    padding-bottom: 1rem;
+    
 }
 
 
@@ -106,10 +106,6 @@ section{
     background: #e1e1e1;
 } 
 
-#sectionint{
-    padding: 2rem 0 3rem;
-    
-}
 
 /*****  RODAPESITE    *****/
 #rodapesite{
@@ -130,7 +126,7 @@ section{
 }
 
 .espacointerno{
-    padding: 4rem 0 4rem;
+    padding: 2rem 0 4rem;
 }
 
 .wrapper{display:flex;flex-wrap: wrap;justify-content: center;}
