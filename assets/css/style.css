@@ -4,6 +4,22 @@ img{max-width:100%;display: block;margin: auto;}
 ul li{list-style: none; padding: 5px;}
 html, body{height: 100vh;font-size: 100%;}
 
+/*CLASSES AUXILIARES*/
+/*container centraliza e define tamanho do width em %*/
+.container{
+    width: 95%;
+    max-width: 960px;                                             
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.wrapper{display:flex;flex-wrap: wrap;justify-content: center;}
+
+.carrossel{
+    height:250px;
+    background-color: #ffb;
+}
+
 /*CUSTOMIZAÇÃO DE TAGS, CORES*/
 /* cores padrao */
 :root {
@@ -25,18 +41,6 @@ body{
     line-height: 1.8;
     background-color: #fff;
     color: var(--cor-05);
-}
-
-header{
-    width: 100%;
-    background-color: var(--cor-03);
-    text-transform: uppercase;
-    padding: 1rem;
-}
-
-header img{
-    width: 150px;
-    border-radius: 50%;
 }
 
 a{color: #000; }
@@ -61,8 +65,26 @@ blockquote{
     margin-top: 0.5rem;
 }
 
+/*****  TOPOSITE    *****/
 
-.innerflex{
+/*LOGO*/
+/* .logo_text{display:none;} */
+
+#toposite{
+    width: 100%;
+    background-color: var(--cor-03);
+    text-transform: uppercase;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+}
+
+#toposite img{
+    width: 150px;
+    border-radius: 50%;
+}
+
+#topositeint{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -86,42 +108,36 @@ nav .active a,nav a:hover{color:#FFFFFF;text-shadow: 1px 1px #000;}
 .mm_line{height:5px;background-color:var(--cor-02);width: 80%;margin: 5px;}
 
 /*CUSTOMIZAÇÂO HEADER, MAIN, SECTION, FOOTER*/
-#topo{
-    position: sticky;top: 0;
-}
 
-main{
+#principal{
     padding: 2rem 1rem;
     
+}
+
+#principalint{
+    /* background-color: #1da1f2; */
 }
 
  
 section{
     padding: 2rem 1rem;
+    
+    background: #e1e1e1;
 } 
 
-footer{
-    
+/*****  RODAPESITE    *****/
+#rodapesite{
     width: 100%;
-    padding: 2rem 1rem;
-    background-color: #ffb;
-    
-}
-
-.carrossel{
-    height:250px;
+    padding: 2rem 1rem 0;
     background-color: #ffb;
 }
-/*CLASSES AUXILIARES*/
-/*container centraliza e define tamanho do width em %*/
-.container{
-    width: 95%;
-    max-width: 960px;                                             
-    margin: 0 auto;
-    overflow: hidden;
+
+#rodapesiteint{
+    padding: 2rem 1rem 0.5rem;
 }
 
-.wrapper{display:flex;flex-wrap: wrap;justify-content: center;}
+
+
 
 /*REDESSOCIAIS*/
 .redessociais-container{display: flex;justify-content: center; font-size: 2rem;}
