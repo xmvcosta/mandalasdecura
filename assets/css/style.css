@@ -4,22 +4,6 @@ img{max-width:100%;display: block;margin: auto;}
 ul li{list-style: none; padding: 5px;}
 html, body{height: 100vh;font-size: 100%;}
 
-/*CLASSES AUXILIARES*/
-/*container centraliza e define tamanho do width em %*/
-.container{
-    width: 95%;
-    max-width: 960px;                                             
-    margin: 0 auto;
-    overflow: hidden;
-}
-
-.wrapper{display:flex;flex-wrap: wrap;justify-content: center;}
-
-.carrossel{
-    height:250px;
-    background-color: #ffb;
-}
-
 /*CUSTOMIZAÇÃO DE TAGS, CORES*/
 /* cores padrao */
 :root {
@@ -136,8 +120,21 @@ section{
     padding: 2rem 1rem 0.5rem;
 }
 
+/*CLASSES AUXILIARES*/
+/*container centraliza e define tamanho do width em %*/
+.container{
+    width: 95%;
+    max-width: 960px;                                             
+    margin: 0 auto;
+    overflow: hidden;
+}
 
+.wrapper{display:flex;flex-wrap: wrap;justify-content: center;}
 
+.carrossel{
+    height:250px;
+    background-color: #ffb;
+}
 
 /*REDESSOCIAIS*/
 .redessociais-container{display: flex;justify-content: center; font-size: 2rem;}
