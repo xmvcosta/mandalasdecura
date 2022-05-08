@@ -37,13 +37,13 @@ header img{
 }
 
 a{color: #000; }
-h1{font-family: Verdana, Geneva, Tahoma, sans-serif; text-align: center; color: var(--cor-03);text-shadow: 2px 2px #24264B;}
+h1{font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 3rem; text-align: center; color: var(--cor-03);text-shadow: 2px 2px #24264B;}
 h2,h3{font-family: Verdana, Geneva, Tahoma, sans-serif; color: var(--cor-titulo);margin: 2rem 0 1rem;text-shadow: 2px 2px #ccc;}
 p{
     font-family: Georgia, Cambria, "Times New Roman", Times, serif; 
     color: #222;
-    margin: 2rem 0 0;
-    text-indent: 32px;
+    margin: 1rem 0 0;
+    text-indent: 2rem;
     overflow-wrap: break-word;
     font-size: 100%;
     /* background-color: red; */
@@ -68,28 +68,32 @@ blockquote{
 .menu {display:flex;align-items:center;}
 nav ul,nav li {list-style: none;margin:0;padding:0;}
 nav ul{display:flex;}
-nav a{display:block;padding:15px;text-decoration:none;text-transform:uppercase;color:#fff;}
+nav a{display:block;padding:15px; margin-left: 0.5rem; text-decoration:none;text-transform:uppercase;color:#fff;}
 nav .active a,nav a:hover{background-color:var(--cor-04);color:#FFFFFF;}
 .menuMobile{display:none;width:60px;height:60px;color: #fff;border: 1px solid #fff;border-radius: 10px;justify-content: center;}
 .menuMobile-container{display: flex;flex-direction: column;align-items: center;}
 .mm_line{height:3px;background-color:#fff;width: 80%;margin: 2px;}
-
-
 
 /*CUSTOMIZAÇÂO HEADER, MAIN, SECTION, FOOTER*/
 #topo{
     position: sticky;top: 0;
 }
 
-/* main{}
+main{
+    padding: 2rem 1rem;
+    
+}
 
-section{} */
+ 
+section{
+    padding: 2rem 1rem;
+} 
 
 footer{
     
     width: 100%;
-    padding: 1rem;
-    background-color: #D6D1CD;
+    padding: 2rem 1rem;
+    background-color: #ffb;
     
 }
 
@@ -144,7 +148,8 @@ footer{
 		position: absolute;
 	    left: 0;
         width: 100%;
-        background-color: green;
+        margin-top: 3rem;
+        background-color: var(--cor-03);
 	}
 
 	header {
