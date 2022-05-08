@@ -55,7 +55,6 @@ blockquote{
 /* .logo_text{display:none;} */
 
 #toposite{
-    width: 100%;
     background-color: var(--cor-03);
     text-transform: uppercase;
     padding: 1rem;
@@ -93,16 +92,17 @@ nav .active a,nav a:hover{color:#FFFFFF;text-shadow: 1px 1px #000;}
 
 /*CUSTOMIZAÇÂO HEADER, MAIN, SECTION, FOOTER*/
 
+/*****  PRINCIPAL    *****/
 #principal{
     padding: 2rem 1rem;
-    
 }
 
 #principalint{
     /* background-color: #1da1f2; */
 }
 
- 
+
+/*****  SECTION    *****/ 
 section{
     padding: 2rem 1rem;
     
@@ -111,7 +111,7 @@ section{
 
 /*****  RODAPESITE    *****/
 #rodapesite{
-    width: 100%;
+    
     padding: 2rem 1rem 0;
     background-color: #ffb;
 }
