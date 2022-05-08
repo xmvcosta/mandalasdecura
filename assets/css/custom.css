@@ -28,7 +28,7 @@ body{
 }
 
 a{color: #000; }
-h1,h2,h3{font-family: Verdana, sans-serif;margin: 2rem 0 1rem;}
+h1,h2,h3{font-family: Verdana, sans-serif;}
 h1{font-size: 2.5rem; text-align: center; color: var(--cor-titulo-principal);text-shadow: 2px 2px #24264B;}
 h2,h3{color: var(--cor-titulo-secundario);font-weight: 700;}
 p{
@@ -93,31 +93,32 @@ nav .active a,nav a:hover{color:#FFFFFF;text-shadow: 1px 1px #000;}
 
 /*****  PRINCIPAL    *****/
 #principal{
-    padding: 2rem 1rem;
+    
 }
 
 #principalint{
-    /* background-color: #1da1f2; */
+    padding-bottom: 1rem;
 }
 
 
 /*****  SECTION    *****/ 
 section{
-    padding: 2rem 1rem;
-    
     background: #e1e1e1;
 } 
+
+#sectionint{
+    padding: 2rem 0 3rem;
+    
+}
 
 /*****  RODAPESITE    *****/
 #rodapesite{
     
-    padding: 2rem 1rem 0;
     background-color: #ffb;
+    
 }
 
-#rodapesiteint{
-    padding: 2rem 1rem 0.5rem;
-}
+
 
 /*CLASSES AUXILIARES*/
 /*container centraliza e define tamanho do width em %*/
@@ -126,6 +127,10 @@ section{
     max-width: 960px;                                             
     margin: 0 auto;
     overflow: hidden;
+}
+
+.espacointerno{
+    padding: 4rem 0 4rem;
 }
 
 .wrapper{display:flex;flex-wrap: wrap;justify-content: center;}
