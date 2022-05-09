@@ -28,7 +28,7 @@ body{
 }
 
 a{color: #000; }
-h1,h2,h3{font-family: Verdana, sans-serif;}
+h1,h2,h3{font-family:'Open Sans', sans-serif;}
 h1{font-size: 2.5rem; text-align: center; color: var(--cor-titulo-principal);text-shadow: 2px 2px #24264B;}
 h2,h3{color: var(--cor-titulo-secundario);font-weight: 700;}
 p{
@@ -54,11 +54,11 @@ blockquote{
 /* .logo_text{display:none;} */
 
 #toposite{
-    background-color: var(--cor-03);
+    /* background-color: var(--cor-03); */
     text-transform: uppercase;
     padding: 1rem;
-    position: sticky;
-    top: 0;
+    /* position: sticky;
+    top: 0; */
     
 }
 
@@ -83,10 +83,10 @@ nav a{display:block;
     padding:15px;
     text-decoration:none;
     text-transform:uppercase;
-    color:#fff;
+    color:#000;
     font-size: 1.2rem;
     font-weight: bold;}
-nav .active a,nav a:hover{color:#FFFFFF;text-shadow: 1px 1px #000;}
+nav .active a,nav a:hover{color:var(--cor-03);text-shadow: 1px 1px #000;}
 .menuMobile{display:none;width:60px;height:60px;color: #fff;justify-content: center;}
 .menuMobile-container{display: flex;flex-direction: column;align-items: center;}
 .mm_line{height:5px;background-color:var(--cor-02);width: 80%;margin: 5px;}
@@ -106,7 +106,7 @@ nav .active a,nav a:hover{color:#FFFFFF;text-shadow: 1px 1px #000;}
 
 /*****  SECTION    *****/ 
 section{
-    background: #e1e1e1;
+    /* background: #e1e1e1; */
 } 
 
 
