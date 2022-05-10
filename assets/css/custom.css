@@ -100,15 +100,16 @@ blockquote{
 nav ul,nav li {list-style: none;margin:0;padding:0;}
 nav ul{display:flex;}
 nav a{display:block;
-    padding:15px;
+    /* padding:15px; */
     text-decoration:none;
     text-transform:uppercase;
     color:#fff;
     font-size: 1.2rem;
     font-weight: bold;
-    letter-spacing: 0.1px;
+    letter-spacing: 1px;
     /**/
     position: relative;
+    padding: 10px 10px;
 }
 
 nav a:after{
@@ -118,14 +119,11 @@ nav a:after{
     height: 3px;
     width: 0;
     left: 0;
-    bottom: -5px;
+    bottom: 0;
     transition: 0.5s;
 }
 
-
-
 nav a:hover:after{
-    /* color:#fff; */
     width: 100%;
 }
 .menuMobile{display:none;width:60px;height:60px;color: #fff;justify-content: center;}
@@ -216,6 +214,9 @@ nav a:hover:after{
         margin-top: 3rem;
         background-color: var(--cor-bg-2); 
 	}
+    nav a:hover:after{
+        width: 32%;
+    }
 
 	header {
 		height:auto;
