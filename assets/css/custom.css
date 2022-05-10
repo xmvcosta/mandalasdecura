@@ -47,18 +47,18 @@ body{
 
 a{color: #000; }
 h1,h2,h3{font-family:var(--fonte-titulos);text-align: left;}
-h1{font-size: 3rem; color: var(--cor-titulo);}
+h1{font-size: 3em; color: var(--cor-titulo);}
 h2,h3{color: var(--cor-titulo);font-weight: 700;}
-h2{font-size: 2.3rem;}
-h3{font-size: 2rem;margin-top: 3rem;}
-h4{font-size: 1.4rem;}
+h2{font-size: 2.3em;}
+h3{font-size: 2em;margin-top: 3em;}
+h4{font-size: 1.4em;}
 p{
     font-family: var(--fonte-paragrafos);
-    font-size: 1.05rem; 
+    font-size: 1.05em; 
     text-align: left;
     letter-spacing: 0.05rem;
     color: var(--cor-05);
-    margin: 1rem 0;
+    margin: 1em 0;
     overflow-wrap: break-word;
     /* background-color: red; */
 }
@@ -77,7 +77,7 @@ blockquote{
 #toposite{
     background-color:var(--cor-bg-2);
     text-transform: uppercase;
-    padding: 1rem;
+    padding: 1em;
     /* position: sticky;
     top: 0; */
     
@@ -105,7 +105,7 @@ nav a{display:block;
     text-decoration:none;
     text-transform:uppercase;
     color:#f5f5f5;
-    font-size: 1.2rem;
+    font-size: 1.2em;
     font-weight: bold;
     letter-spacing: 1px;
     /**/
@@ -150,12 +150,12 @@ nav a:hover:after{
     height: 4px;
     width: 300px;
     background-color: #c32aa3;
-    margin-bottom: 4rem;
+    margin-bottom: 4em;
 }
 
 /*****  SECTION    *****/ 
 section{
-    margin-top: 2rem;
+    margin-top: 2em;
 }
 
 /*****  RODAPESITE    *****/
@@ -173,7 +173,7 @@ section{
 }
 
 .espacointerno{
-    padding: 2rem 0;
+    padding: 2em 0;
 }
 
 .wrapper{display:flex;flex-wrap: wrap;justify-content: center;}
@@ -184,7 +184,7 @@ section{
 } */
 
 .box{
-    margin:3rem 0;
+    margin:3em 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -198,7 +198,7 @@ section{
 }
 .box h4{
     color:#d6bb6a;
-    margin-bottom: 1rem;
+    margin-bottom: 1em;
 }
 
 .box-reverse{
@@ -208,7 +208,7 @@ section{
     align-items: center;
 }
 
-.box-text{flex:1; padding: 2rem;
+.box-text{flex:1; padding: 2em;
     /* background-color: var(--cor-bg-2); */
 }
 .box-img {flex:1;}
@@ -250,7 +250,7 @@ section{
 		position: absolute;
 	    left: 0;
         width: 100%;
-        margin-top: 3rem;
+        margin-top: 3em;
         background-color: var(--cor-bg-2); 
 	}
     nav a:hover:after{
