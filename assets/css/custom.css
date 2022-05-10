@@ -7,14 +7,6 @@ img{max-width:100%;display: block;margin: auto;}
 ul li{list-style: none; padding: 5px;}
 html, body{height: 100vh;font-size: 100%;}
 
-/* p{
-color:#2a1f3f;
-color:#e3e1e9;
-color:#4929a0;
-color:#b8acde;
-
-} */
-
 /*CUSTOMIZAÇÃO DE TAGS, CORES*/
 /* cores padrao */
 :root {
@@ -60,6 +52,7 @@ p{
     color: var(--cor-05);
     margin: 1em 0;
     overflow-wrap: break-word;
+    padding: 0 0.5em;
     /* background-color: red; */
 }
 
