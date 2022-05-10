@@ -47,19 +47,14 @@ body{
 
 a{color: #000; }
 h1,h2,h3{font-family:var(--fonte-titulos);text-align: left;}
-h1{font-size: 2.5rem; color: var(--cor-titulo);}
+h1{font-size: 3rem; color: var(--cor-titulo);}
 h2,h3{color: var(--cor-titulo);font-weight: 700;}
-h2{
-    font-size: 1.9rem;
-}
-h3{
-    font-size: 1.7rem;
-    margin-top: 3rem;
-}
-
+h2{font-size: 2.3rem;}
+h3{font-size: 2rem;margin-top: 3rem;}
+h4{font-size: 1.4rem;}
 p{
     font-family: var(--fonte-paragrafos);
-    font-size: 1.1rem; 
+    font-size: 1.05rem; 
     text-align: left;
     letter-spacing: 0.05rem;
     color: var(--cor-05);
@@ -189,17 +184,21 @@ section{
 } */
 
 .box{
-    background-color: var(--cor-bg-2);
-    color: #f5f5f5;
     margin:3rem 0;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: var(--cor-bg-2);
+    color: #f5f5f5;
    
 }
 .box p {
     color: #f5f5f5;
     margin: 0;
+}
+.box h4{
+    color:#d6bb6a;
+    margin-bottom: 1rem;
 }
 
 .box-reverse{
@@ -209,8 +208,10 @@ section{
     align-items: center;
 }
 
-.box-text{flex:1; padding: 2rem;}
-.box-img {width: 338px;}
+.box-text{flex:1; padding: 2rem;
+    /* background-color: var(--cor-bg-2); */
+}
+.box-img {flex:1;}
 
 
 /*REDESSOCIAIS*/
@@ -267,6 +268,19 @@ section{
 	}
 
     
+}
+
+/*10/05/2022*/
+@media only screen and (max-width: 768px) {
+    .box {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .box-reverse{
+        display: flex;
+        flex-direction: column-reverse;
+    }
 }
 
 /*MEDIA TABLETS*/
