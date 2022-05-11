@@ -37,9 +37,9 @@ body{
 }
 
 a{color: #000; }
-h1,h2,h3{font-family:var(--fonte-titulos);text-align: left;}
+h1,h2,h3,h4{font-family:var(--fonte-titulos);text-align: left;text-shadow: 1px 1px 1px #d6bb6a;}
 h1{font-size: 3em; color: var(--cor-titulo);}
-h2,h3{color: var(--cor-titulo);font-weight: 700;}
+h2,h3,h4{color: var(--cor-titulo);font-weight: 700;}
 h2{font-size: 2.3em;}
 h3{font-size: 2em;margin-top: 3em;}
 h4{font-size: 1.4em;}
@@ -150,6 +150,19 @@ section{
     margin-top: 2em;
 }
 
+/*ARTICLES*/
+article{
+    background-color: red;
+}
+
+#mandalas-container{
+    /* background-color: #00ff00; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1em;
+}
+
 /*****  RODAPESITE    *****/
 #rodapesite{
     background-color: var(--cor-bg-1);
@@ -160,7 +173,7 @@ section{
 /*container centraliza e define tamanho do width em %*/
 .container{
     width: 95%;
-    max-width: 960px;                                             
+    max-width: 1024px;                                             
     margin: 0 auto;
     overflow: hidden;
 }
@@ -188,10 +201,12 @@ section{
 .box p {
     color: #f5f5f5;
     margin: 0;
+    
 }
 .box h4{
     color:#d6bb6a;
     margin-bottom: 1em;
+    text-shadow: 1px 1px 1px #333;
 }
 
 .box-reverse{
@@ -199,12 +214,38 @@ section{
     flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
+    
 }
 
 .box-text{flex:1; padding: 2em;
     /* background-color: var(--cor-bg-2); */
 }
 .box-img {flex:1;}
+
+article{
+    display: flex;
+}
+
+.card-mandalas{
+    width: 300px;
+    background-color: #fff;
+    box-shadow: 1px 1px 1px #f1f1f1;
+    
+}
+
+
+.card-mandalas-txt{
+    padding: 1em;
+}
+
+
+.card-mandalas-txt span{
+    background-color: #f1f1f1;
+}
+
+.card-mandalas img{
+    height: 300px;
+}
 
 
 /*REDESSOCIAIS*/
