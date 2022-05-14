@@ -2,7 +2,7 @@
 
 
 /*RESET BÁSICO*/
-*, *::after, *::before{margin:0;padding:0;box-sizing:border-box;border:none;outline:none;text-decoration: none;}
+*, *::after, *::before{margin:0;padding:0;box-sizing:border-box;border:none;outline:none;text-decoration: none; word-break: break-word;}
 img{max-width:100%;display: block;margin: auto;}
 ul li{list-style: none; padding: 5px;}
 html, body{height: 100vh;font-size: 100%;}
